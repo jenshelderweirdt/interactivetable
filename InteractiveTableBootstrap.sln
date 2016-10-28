@@ -1,0 +1,51 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE8E8B8E-50EF-4AA9-7DDA-510F4426096D}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		nuget.config = nuget.config
+	EndProjectSection
+	ProjectSection(FolderGlobals) = preProject
+		global_1json__JSONSchema = http://json.schemastore.org/global
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC209D33-8DBA-F8A6-7F8D-4264A567FCFE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1937C92C-55D0-E72F-5A90-AE078D86F984}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "InteractiveTableBootstrap", "src\InteractiveTableBootstrap\InteractiveTableBootstrap.xproj", "{077CA7EB-AFFC-FDD5-B962-609D3C31DAFF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "InteractiveTableBootstrap.IntegrationTests", "test\InteractiveTableBootstrap.IntegrationTests\InteractiveTableBootstrap.IntegrationTests.xproj", "{948E75FD-C478-4001-AFBE-4D87181E1BEC}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "InteractiveTableBootstrap.UnitTests", "test\InteractiveTableBootstrap.UnitTests\InteractiveTableBootstrap.UnitTests.xproj", "{75D7B11D-F407-8914-27E4-C24BC123CA86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{077CA7EB-AFFC-FDD5-B962-609D3C31DAFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077CA7EB-AFFC-FDD5-B962-609D3C31DAFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077CA7EB-AFFC-FDD5-B962-609D3C31DAFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077CA7EB-AFFC-FDD5-B962-609D3C31DAFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{948E75FD-C478-4001-AFBE-4D87181E1BEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{948E75FD-C478-4001-AFBE-4D87181E1BEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{948E75FD-C478-4001-AFBE-4D87181E1BEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{948E75FD-C478-4001-AFBE-4D87181E1BEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D7B11D-F407-8914-27E4-C24BC123CA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D7B11D-F407-8914-27E4-C24BC123CA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D7B11D-F407-8914-27E4-C24BC123CA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D7B11D-F407-8914-27E4-C24BC123CA86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{077CA7EB-AFFC-FDD5-B962-609D3C31DAFF} = {AC209D33-8DBA-F8A6-7F8D-4264A567FCFE}
+		{948E75FD-C478-4001-AFBE-4D87181E1BEC} = {1937C92C-55D0-E72F-5A90-AE078D86F984}
+		{75D7B11D-F407-8914-27E4-C24BC123CA86} = {1937C92C-55D0-E72F-5A90-AE078D86F984}
+	EndGlobalSection
+EndGlobal

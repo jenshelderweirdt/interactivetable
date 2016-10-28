@@ -1,0 +1,1 @@
+Place your migration scripts in this directory.

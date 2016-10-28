@@ -1,0 +1,24 @@
+{
+    "app": {
+    	"version": "",
+    	"artifact": "",
+        "port": "51003",
+        "appname": "InteractiveTableBootstrap"
+        "apiroot": {
+            "uri": {
+                "scheme": "http://",
+                "host": "my.host.domain",
+                "port": "51003",
+                "path": "/"
+            }
+        },
+        "uiroot": {
+            "uri": {
+                "scheme": "http://",
+                "host": "my.host.domain",
+                "port": "51003",
+                "path": "/ui/"
+            }
+        }
+    }
+}

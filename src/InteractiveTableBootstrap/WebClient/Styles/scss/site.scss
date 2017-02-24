@@ -13,9 +13,82 @@ div.dt-button-background {
 }
 
 .dataTables_filter input[type="search"] {
-    padding: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #bbb;
+    border-radius: .2142857143em;
+    color: #333;
+    display: block;
+    font-size: 1em;
+    line-height: 1.428571429;
+    padding: .4285714286em .8571428571em;
+    transition: border-color linear 1s, box-shadow linear 1s;
+    width: 100%;
 }
 
 .multiline {
     word-break: break-word;
+}
+
+/* direct styling on datatables elements */
+
+div.dt-buttons {
+    float: right;
+
+    a.dt-button {
+        background-image: none;
+        background-color: #fff;
+        border: 1px solid #bbb;
+        border-radius:  .2142857143em;
+        color: #333;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 1em;
+        font-weight: 600;
+        line-height: 1.428571429;
+        padding: .4285714286em .8571428571em;
+        text-align: center;
+        transition: background .1s linear, border .1s linear, color .1s linear;
+        user-select: none;
+        vertical-align: middle;
+        white-space: nowrap;
+
+
+        &:hover:not(.disabled),
+        &:active:not(.disabled):hover:not(.disabled) {
+            background-color: #f2f2f2;
+            background-image: none;
+            border: 1px solid #bbb;
+            color: #333;
+            text-decoration: none;
+        }
+    }
+}
+
+div.dt-button-collection {
+    a.dt-button.buttons-columnVisibility:not(.disabled) {
+        background-image: none;
+        background-color: #fff;
+        border: 1px solid #bbb;
+        border-radius:  .2142857143em;
+        color: #333;
+        cursor: pointer;
+        font-weight: 600;
+        padding: .4285714286em .8571428571em;
+        text-align: center;
+        transition: background .1s linear, border .1s linear, color .1s linear;
+        user-select: none;
+
+        &:hover:not(.disabled),
+        &:active:not(.disabled):hover:not(.disabled) {
+            background-color: #f2f2f2;
+            background-image: none;
+            border: 1px solid #bbb;
+            color: #333;
+            text-decoration: none;
+        }        
+    }
 }
